@@ -1,0 +1,124 @@
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: #53a8b6;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+  padding: 20px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 24px;
+  padding-top: 20px;
+  margin: 0% auto;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 16px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+form {
+  display: block;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+label {
+  color: #53a8b6;
+  padding: 10px;
+}
+
+col {
+  display: block;
+  margin: 0% auto;
+}
+
+.container {
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  border-radius: 10px;
+  padding: 40px;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.unit {
+  text-align: center;
+  display: block;
+  position: relative;
+  bottom: 110px;
+  left: 40px;
+  color: #53a8b6;
+}
+
+.icon {
+  text-align: center;
+  padding-bottom: 50px;
+  color: #53a8b6;
+}
+
+.temperature {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+  color: #53a8b6;
+  font-family: "Poppins", sans-serif;
+}
+
+.details {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 50px;
+  color: #53a8b6;
+  font-family: "Poppins", sans-serif;
+}
+
+.current-location {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  left: 510px;
+  bottom: 35px;
+  border-radius: 6px;
+  background-color: #d1e4fb;
+  border: 1px;
+  padding: 4px;
+}
+
+.tuesday,
+.wednesday,
+.thursday,
+.friday,
+.saturday,
+.sunday {
+  text-align: center;
+  color: #53a8b6;
+  font-family: "Poppins", sans-serif;
+}
+
+.fa-cloud,
+.fa-cloud-sun,
+.fa-cloud-sun-rain {
+  color: #53a8b6;
+}
