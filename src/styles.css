@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(247, 249, 255);
+}
+
 h1,
 h2,
 h3,
@@ -58,6 +62,7 @@ col {
     rgb(234, 251, 251) 77.6%,
     rgb(240, 251, 244) 100.7%
   );
+
   border-radius: 10px;
   padding: 40px;
   margin: 0 auto;
