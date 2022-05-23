@@ -70,16 +70,24 @@ col {
   width: 800px;
 }
 
+.unit {
+  color: #53a8b6;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  display: block;
+  position: relative;
+  bottom: 95px;
+  left: 45px;
+}
+
 .icon {
   text-align: center;
-  padding-bottom: 50px;
   color: #53a8b6;
 }
 
 .temperature {
   font-size: 30px;
   text-align: center;
-  padding-bottom: 50px;
   color: #53a8b6;
   font-family: "Poppins", sans-serif;
 }
@@ -87,7 +95,6 @@ col {
 .details {
   text-align: center;
   font-size: 16px;
-  padding-bottom: 50px;
   color: #53a8b6;
   font-family: "Poppins", sans-serif;
 }
