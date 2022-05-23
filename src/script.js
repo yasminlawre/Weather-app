@@ -24,7 +24,6 @@ let now = new Date();
 formatDate(now);
 
 function showWeather(response) {
-  console.log(response);
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
