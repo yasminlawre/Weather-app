@@ -74,6 +74,12 @@ col {
   left: 45px;
 }
 
+.active {
+  color: #53a8b6;
+  cursor: default;
+  text-decoration: none;
+}
+
 .icon {
   text-align: center;
   color: #53a8b6;
