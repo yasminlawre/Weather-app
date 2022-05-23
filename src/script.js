@@ -17,7 +17,7 @@ function formatDate(date) {
   if (currentMin < 10) {
     currentMin = `0${currentMin}`;
   }
-  let time = document.querySelector("h3");
+  let time = document.querySelector("h2");
   time.innerHTML = `${day} ${currentHour}:${currentMin} `;
 }
 let now = new Date();
