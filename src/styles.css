@@ -70,15 +70,6 @@ col {
   width: 800px;
 }
 
-.unit {
-  text-align: center;
-  display: block;
-  position: relative;
-  bottom: 110px;
-  left: 40px;
-  color: #53a8b6;
-}
-
 .icon {
   text-align: center;
   padding-bottom: 50px;
