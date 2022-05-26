@@ -49,14 +49,7 @@ col {
 }
 
 .container {
-  background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(234, 251, 251) 77.6%,
-    rgb(240, 251, 244) 100.7%
-  );
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 
   border-radius: 10px;
   padding: 40px;
@@ -103,19 +96,14 @@ col {
   font-family: "Poppins", sans-serif;
   position: relative;
   left: 510px;
-  bottom: 35px;
+  bottom: 39px;
   border-radius: 6px;
   background-color: #d1e4fb;
   border: 1px;
-  padding: 4px;
+  padding: 8px;
 }
 
-.tuesday,
-.wednesday,
-.thursday,
-.friday,
-.saturday,
-.sunday {
+.week-forecast {
   text-align: center;
   color: #53a8b6;
   font-family: "Poppins", sans-serif;
