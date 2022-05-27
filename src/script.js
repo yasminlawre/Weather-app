@@ -23,6 +23,18 @@ function formatDate(date) {
 let now = new Date();
 formatDate(now);
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  forecastElement.innerHTML = `<div class="row">
+          <div class="week-forecast col-2">
+            Tue <br />
+            <i class="fa-solid fa-cloud"></i> <br />
+            <span class="max-temp">15°C</span><span class="min-temp"></span>
+          </div>
+        </div>`;
+}
+
 function showWeather(response) {
   celsiusTemperature = response.data.main.temp;
   document.querySelector("#city").innerHTML = response.data.name;
@@ -69,6 +81,7 @@ let currLocation = document.querySelector("#current");
 currLocation.addEventListener("click", currentLocation);
 
 searchCity("London");
+displayForecast();
 
 function showFahrenheit(event) {
   event.preventDefault();
