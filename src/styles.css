@@ -57,6 +57,12 @@ col {
   width: 800px;
 }
 
+.city-input {
+  border-radius: 5px;
+  height: 40px;
+  border: 1px;
+}
+
 .unit {
   color: #53a8b6;
   font-family: "Poppins", sans-serif;
