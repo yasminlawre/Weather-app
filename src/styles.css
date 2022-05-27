@@ -49,8 +49,7 @@ col {
 }
 
 .container {
-  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-
+  background: linear-gradient(to bottom, #fff1eb 1%, #ace0f9 99%);
   border-radius: 10px;
   padding: 40px;
   margin: 0 auto;
@@ -115,10 +114,8 @@ col {
   font-family: "Poppins", sans-serif;
 }
 
-.fa-cloud,
-.fa-cloud-sun,
-.fa-cloud-sun-rain {
-  color: #53a8b6;
+.min-temp {
+  opacity: 0.7;
 }
 
 .footer {
